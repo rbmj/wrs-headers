@@ -1,0 +1,19 @@
+Source: wrs-headers
+Section: devel
+Priority: extra
+Maintainer: R Blair Mason (rbmj) <rbmj@verizon.net>
+Build-Depends: debhelper (>= 8.0.0), wget
+Standards-Version: 3.9.3
+Homepage: https://github.com/rbmj/wrs-headers
+Vcs-Git: git://github.com/rbmj/wrs-headers.git
+Vcs-Browser: https://github.com/rbmj/wrs-headers
+
+Package: wrs-headers
+Architecture: all
+Depends: ${misc:Depends}
+Description: WRS IP needed to build for VxWorks 6.3
+ The redistribution of these files is considered fair
+ use, as they are only header files and helper scripts
+ used to preserve interoperability with VxWorks and
+ enhances the value of VxWorks to its users.  That
+ being said, this package is NON-FREE.
